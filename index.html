@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furry Friend Aid Hub - Pet Healthcare Platform</title>
+    <meta name="description" content="Comprehensive pet healthcare platform offering symptom checking, veterinary hospital locator, and AI pet health assistant" />
+    <meta name="author" content="Your Company Name" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Furry Friend Aid Hub - Pet Healthcare Solutions" />
+    <meta property="og:description" content="Your pet's health companion - symptom checking, vet locator, and AI assistance" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:image" content="https://i.pinimg.com/474x/fb/f5/24/fbf524399f4cbe972f138a73fb19cb4e.jpg" />
+    <meta property="og:image:alt" content="Furry Friend Aid Hub screenshot" />
+    <meta property="og:site_name" content="Furry Friend Aid Hub" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Furry Friend Aid Hub" />
+    <meta name="twitter:description" content="Your pet's health companion" />
+    <meta name="twitter:image" content="https://i.pinimg.com/736x/46/c6/14/46c614c1a56791ddda3ef5a1666267dd.jpg" />
+    <meta name="twitter:image:alt" content="Pet healthcare platform" />
+    
+    <!-- Favicon (recommended) -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    
+    <!-- Preconnect to important origins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Manifest (for PWA) -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    
+    <!-- Loading script for modern browsers (module) -->
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Fallback for older browsers (nomodule) -->
+    <script nomodule>
+      document.getElementById('root').innerHTML = 
+        '<div style="padding: 2rem; text-align: center; font-family: sans-serif;">' +
+        '<h1>Browser Not Supported</h1>' +
+        '<p>Please use a modern browser to view this application</p>' +
+        '</div>';
+    </script>
+  </body>
+</html>
